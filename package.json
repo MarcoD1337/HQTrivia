@@ -1,0 +1,30 @@
+{
+  "name": "hqtrivia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd API && tsc && node ../index.js"
+  },
+  "keywords": [],
+  "author": "imskrt",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.1",
+    "rethinkdbdash": "^2.3.31",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8",
+    "typescript": "^4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoD1337/HQTrivia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcoD1337/HQTrivia/issues"
+  },
+  "homepage": "https://github.com/MarcoD1337/HQTrivia#readme",
+  "description": ""
+}
